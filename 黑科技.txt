@@ -1,0 +1,11 @@
+黑科技
+
+可以通过将style标签放在body中,并将style标签的属性 设置为display:block,就可以将css样式显示在界面上
+
+    contentEditable //内容可以被编辑
+    <style style="display:block;" contentEitable>
+    </style>  
+
+在页面的控制台中 document.body.contentEditable = true 可以更改页面内容  
+
+ 
